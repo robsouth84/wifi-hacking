@@ -23,3 +23,15 @@ Given a bssid, a decent [wordlist](https://wiki.skullsecurity.org/Passwords), an
 ```bash
 sudo aircrack-ng -b xx:xx:xx:xx:xx:xx -l xxNet-Cracked-PW.txt capture_file_with_handshake.cap -w rockyou.txt 
 ```
+
+
+
+
+## Wordlists
+[skull security](https://wiki.skullsecurity.org/Passwords)
+[packet storm](https://packetstormsecurity.com/Crackers/wordlists/)
+[Daniel Miessler](https://github.com/danielmiessler/SecLists/tree/master/Passwords)
+
+
+### Other Interesting Links
+[NIST Bad Passwords](https://cry.github.io/nbp/)

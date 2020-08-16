@@ -64,6 +64,7 @@ they do appear to have updated their docs and added bluetooth support since I la
 * 
 
 ### Other Interesting Links
-[NIST Bad Passwords](https://cry.github.io/nbp/)
-[WiFi Maps](https://www.wifimap.io)
+* [NIST Bad Passwords](https://cry.github.io/nbp/)
+* [WPA Tables](https://renderlab.net/projects/WPA-tables/)
+* [WiFi Maps](https://www.wifimap.io)
 

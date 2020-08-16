@@ -19,7 +19,7 @@ sudo wifite --crack -dict rockyou.txt
 Before wifite (and also before I patched wifite) aircrack-ng was the way to go.  Now wifite handles all of the hard work, but for demo's the aircrack-ng screen is always more fun :)
 
 ### interactive scan:
-Given a bssid, a decent [wordlist](https://wiki.skullsecurity.org/Passwords), and a capture file.  This should find the wifi password (assuming its in the word list)
+Given a bssid, a decent [wordlist](https://github.com/robsouth84/wifi-hacking/blob/master/README.md#wordlists), and a capture file.  This should find the wifi password (assuming its in the word list)
 ```bash
 sudo aircrack-ng -b xx:xx:xx:xx:xx:xx -l xxNet-Cracked-PW.txt capture_file_with_handshake.cap -w rockyou.txt 
 ```

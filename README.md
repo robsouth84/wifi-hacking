@@ -2,7 +2,7 @@
 
 
 ## wifite
-I use wifite version in ubuntu repos with a [patch](https://github.com/robsouth84/wifite/blob/master/wifite.py), but will probably checkout [v2](https://github.com/derv82/wifite2) soon 
+I prefer to use wifite version in ubuntu repos with a minor [patch](https://github.com/robsouth84/wifite/blob/master/wifite.py), but will probably checkout [wifite v2](https://github.com/derv82/wifite2) soon as it appears to be greatly improved. 
 
 
 ### Passive Scanning:
@@ -50,6 +50,11 @@ sudo aircrack-ng -e "PrettyFly4aWiFi" -l Cracked-PW.txt capture_file_with_handsh
 ```
 
 
+## kismet
+[Kismet](https://www.kismetwireless.net/) is another useful interactive wifi sniffing tool.  It's pretty neat, but I always forget the command sequences and have trouble remembering how to select my adapter.  wifite and aircrack-ng have less of a learning curve..
+
+they do appear to have updated their docs and added bluetooth support since I last used Kismet so I'll have to dig in again.
+
 
 ## Wordlists
 
@@ -60,3 +65,5 @@ sudo aircrack-ng -e "PrettyFly4aWiFi" -l Cracked-PW.txt capture_file_with_handsh
 
 ### Other Interesting Links
 [NIST Bad Passwords](https://cry.github.io/nbp/)
+[WiFi Maps](https://www.wifimap.io)
+
